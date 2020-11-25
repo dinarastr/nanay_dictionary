@@ -1,4 +1,4 @@
-package com.example.roomtut
+package com.example.roomtut.adapters
 
 import android.graphics.Rect
 import android.view.View

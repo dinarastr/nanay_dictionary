@@ -5,6 +5,9 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.roomtut.SpeakingActivity.Companion.POSITION
+import com.example.roomtut.adapters.SpeakingMenuAdapter
+import com.example.roomtut.adapters.TopSpacingItemClass
+import com.example.roomtut.sourcefactory.SpeakingMenuSource
 import kotlinx.android.synthetic.main.activity_speaking_menu.*
 
 class SpeakingMenuActivity : AppCompatActivity(), SpeakingMenuAdapter.OnItemClickListener {

@@ -1,5 +1,6 @@
-package com.example.roomtut
+package com.example.roomtut.sourcefactory
 
+import com.example.roomtut.R
 import com.example.roomtut.model.SpeakingMenu
 
 class SpeakingMenuSource {

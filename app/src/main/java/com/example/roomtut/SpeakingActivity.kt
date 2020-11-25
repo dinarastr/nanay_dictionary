@@ -4,6 +4,8 @@ import android.media.MediaPlayer
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.roomtut.adapters.SpeakingRVAdapter
+import com.example.roomtut.adapters.TopSpacingItemClass
 import com.example.roomtut.sourcefactory.SpeakingFactory
 import kotlinx.android.synthetic.main.activity_speaking.*
 import java.lang.IllegalArgumentException
@@ -23,7 +25,7 @@ class SpeakingActivity : AppCompatActivity(), SpeakingRVAdapter.OnItemClickListe
 
     private fun addDataSet(){
         val category = intent.getStringExtra(POSITION) ?: throw IllegalArgumentException()
-        var vmFactory = SpeakingFactory.getWordsVmFactory(category)
+        val vmFactory = SpeakingFactory.getWordsVmFactory(category)
         val data = vmFactory.createDataSet()
         phraseAdapter.submitList(data)
     }
@@ -45,7 +47,7 @@ class SpeakingActivity : AppCompatActivity(), SpeakingRVAdapter.OnItemClickListe
 
     override fun onItemClick(position: Int) {
         val category = intent.getStringExtra(POSITION) ?: throw IllegalArgumentException()
-        var vmFactory = SpeakingFactory.getWordsVmFactory(category)
+        val vmFactory = SpeakingFactory.getWordsVmFactory(category)
         val data = vmFactory.createDataSet()
         val clickedItem = data[position]
         playSound(clickedItem.sound)

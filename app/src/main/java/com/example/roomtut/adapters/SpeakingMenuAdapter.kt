@@ -1,4 +1,4 @@
-package com.example.roomtut
+package com.example.roomtut.adapters
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,6 +6,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.roomtut.R
 import com.example.roomtut.model.SpeakingMenu
 import kotlinx.android.synthetic.main.menu_speaking.view.*
 
