@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Хэсэку</string>
+    <string name="hello">Ба̄чигоапу!</string>
+    <string name="grammar">Грамматика</string>
+    <string name="speaking">Разговорник</string>
+    <string name="dictionary">Словарь</string>
+    <string name="videolessons">Видеоуроки</string>
+    <string name="click_the_icon">Нажмите на иконку и прослушайте</string>
+    <string name="add">Добавить</string>
+    <string name="word">Слово</string>
+    <string name="Translation">Перевод</string>
+    <string name="search">Поиск</string>
+</resources>
