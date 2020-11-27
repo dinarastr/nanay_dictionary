@@ -13,6 +13,12 @@
         <action
             android:id="@+id/action_listFragment_to_addFragment"
             app:destination="@id/addFragment" />
+        <action
+            android:id="@+id/action_listFragment_to_nanayDictFragment"
+            app:destination="@id/nanayDictFragment" />
+        <action
+            android:id="@+id/action_listFragment_to_addRussianFragment"
+            app:destination="@id/addRussianFragment" />
     </fragment>
     <fragment
         android:id="@+id/addFragment"
@@ -21,6 +27,29 @@
         tools:layout="@layout/fragment_add" >
         <action
             android:id="@+id/action_addFragment_to_listFragment"
+            app:destination="@id/listFragment" />
+        <action
+            android:id="@+id/action_addFragment_to_nanayDictFragment"
+            app:destination="@id/nanayDictFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nanayDictFragment"
+        android:name="com.example.roomtut.fragments.list.NanayDictFragment"
+        android:label="Словарь"
+        tools:layout="@layout/fragment_list">
+        <action
+            android:id="@+id/action_nanayDictFragment_to_addFragment"
+            app:destination="@id/addFragment" />
+        <action
+            android:id="@+id/action_nanayDictFragment_to_listFragment"
+            app:destination="@id/listFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addRussianFragment"
+        android:name="com.example.roomtut.fragments.add.AddRussianFragment"
+        android:label="AddRussianFragment" >
+        <action
+            android:id="@+id/action_addRussianFragment_to_listFragment"
             app:destination="@id/listFragment" />
     </fragment>
 </navigation>

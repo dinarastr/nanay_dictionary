@@ -40,10 +40,10 @@ class AddFragment : Fragment() {
         if (inputCheck(talysh, russian)){
             val newWord = Word(0, talysh, russian)
             mWordViewModel.addWord(newWord)
-            Toast.makeText(requireContext(), "Okay!", Toast.LENGTH_SHORT).show()
-            findNavController().navigate(R.id.action_addFragment_to_listFragment)
+            Toast.makeText(requireContext(), "Слово добавлено!", Toast.LENGTH_SHORT).show()
+            findNavController().navigate(R.id.action_addFragment_to_nanayDictFragment)
         } else {
-            Toast.makeText(requireContext(), "Enter word!", Toast.LENGTH_SHORT).show()
+            Toast.makeText(requireContext(), "Напишите слово!", Toast.LENGTH_SHORT).show()
         }
 
     }
@@ -51,8 +51,5 @@ class AddFragment : Fragment() {
     private fun inputCheck(talysh: String, russian: String): Boolean{
         return !(TextUtils.isEmpty(talysh) && TextUtils.isEmpty(russian))
 
-
     }
-
-
 }

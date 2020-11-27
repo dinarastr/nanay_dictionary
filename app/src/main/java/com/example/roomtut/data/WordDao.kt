@@ -19,4 +19,5 @@ interface WordDao {
 
     @Query("SELECT * FROM talysh_to_russian WHERE talysh LIKE :name LIMIT :pageSize OFFSET :offset")
     fun filter(name: String, pageSize: Int, offset: Int): LiveData<List<Word>>
+
 }
