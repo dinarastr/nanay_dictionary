@@ -14,6 +14,7 @@ class SpeakingActivity : AppCompatActivity(), SpeakingRVAdapter.OnItemClickListe
 
     private lateinit var phraseAdapter: SpeakingRVAdapter
     private var mMediaPlayer: MediaPlayer? = null
+    private var mCategory: String? = null
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -24,8 +25,8 @@ class SpeakingActivity : AppCompatActivity(), SpeakingRVAdapter.OnItemClickListe
     }
 
     private fun addDataSet(){
-        val category = intent.getStringExtra(POSITION) ?: throw IllegalArgumentException()
-        val vmFactory = SpeakingFactory.getWordsVmFactory(category)
+        mCategory = intent.getStringExtra(POSITION) ?: throw IllegalArgumentException()
+        val vmFactory = SpeakingFactory.getWordsVmFactory(mCategory!!)
         val data = vmFactory.createDataSet()
         phraseAdapter.submitList(data)
     }
@@ -43,6 +44,7 @@ class SpeakingActivity : AppCompatActivity(), SpeakingRVAdapter.OnItemClickListe
 
     companion object{
         const val POSITION = "number"
+        const val CATEGORY = "CATEGORY"
     }
 
     override fun onItemClick(position: Int) {
@@ -60,5 +62,10 @@ class SpeakingActivity : AppCompatActivity(), SpeakingRVAdapter.OnItemClickListe
             isLooping = false
             start()
         }
+    }
+
+    override fun onSaveInstanceState(outState: Bundle) {
+        super.onSaveInstanceState(outState)
+        outState.putString(CATEGORY, mCategory)
     }
 }
