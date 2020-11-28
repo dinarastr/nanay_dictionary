@@ -18,5 +18,11 @@ class MenuActivity : AppCompatActivity() {
             val intent = Intent(this, DictionaryActivity::class.java)
             startActivity(intent)
         }
+
+        app_info.setOnClickListener {
+            val intent = Intent(this, InfoActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 }

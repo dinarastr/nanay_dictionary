@@ -9,8 +9,8 @@
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.Roomtut">
-        <activity android:name=".SpeakingMenuActivity">
-        </activity>
+        <activity android:name=".InfoActivity"/>
+        <activity android:name=".SpeakingMenuActivity"/>
         <activity android:name=".SpeakingActivity" />
         <activity android:name=".MenuActivity" />
         <activity android:name=".SplashActivity">
@@ -20,8 +20,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".DictionaryActivity">
-        </activity>
+        <activity android:name=".DictionaryActivity"/>
     </application>
 
 </manifest>

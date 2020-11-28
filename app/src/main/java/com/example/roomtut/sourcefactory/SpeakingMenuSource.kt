@@ -10,16 +10,15 @@ class SpeakingMenuSource {
             list.add(
                 SpeakingMenu(
                     "Знакомство",
-
                     "Гэрбу",
-                    R.drawable.meeting,
+                    R.drawable.greeting,
                 )
             )
             list.add(
                 SpeakingMenu(
                     "Здравствуйте!",
                     "Ба̄чигоапу!",
-                    R.drawable.greeting,
+                    R.drawable.meeting,
                 )
             )
             list.add(

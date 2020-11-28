@@ -70,11 +70,12 @@
             android:layout_marginTop="10dp"
             android:clickable="true"
             android:focusable="true"
+            app:tint="@color/white"
             app:backgroundTint="@color/bluestyle"
             android:layout_gravity="end"
             android:contentDescription="@string/add"
-            android:src="@drawable/ic_add"
-            android:tint="@color/white" />
+            android:src="@drawable/ic_baseline_add_24"
+             />
     </FrameLayout>
 
     <LinearLayout

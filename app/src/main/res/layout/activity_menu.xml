@@ -1,101 +1,139 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/bluestyle"
+    android:orientation="vertical"
     android:gravity="center"
     tools:context=".MenuActivity">
 
+
     <LinearLayout
 
+        android:id="@+id/linearLayout"
         android:layout_width="wrap_content"
-        android:padding="10dp"
-        android:background="@drawable/frame_blue"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:background="@drawable/frame_blue"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
 
         <LinearLayout
             android:layout_width="wrap_content"
-            android:orientation="vertical"
+            android:layout_height="wrap_content"
             android:gravity="center"
-            android:padding="10dp"
-            android:layout_height="wrap_content">
+            android:orientation="vertical"
+            android:padding="10dp">
+
             <TextView
-                android:textStyle="bold"
-                android:textColor="@color/bluestyle"
-
                 android:layout_width="wrap_content"
-                android:text="@string/grammar"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
 
-            <ImageButton
-                android:id="@+id/grammar_button"
-                android:padding="5dp"
-                android:background="@drawable/frame_blue"
-                android:layout_marginBottom="10dp"
-                android:layout_width="wrap_content"
-                app:srcCompat="@drawable/grammar"
-                android:layout_height="wrap_content"/>
-            <TextView
-                android:textStyle="bold"
-                android:textColor="@color/bluestyle"
-
-                android:layout_width="wrap_content"
                 android:text="@string/speaking"
-                android:layout_height="wrap_content"/>
+                android:textColor="@color/bluestyle"
+                android:textStyle="bold" />
+
             <ImageButton
+                android:contentDescription="@string/speaking_image"
                 android:id="@+id/speaking_button"
-                app:srcCompat="@drawable/listening"
-                android:padding="5dp"
-                android:background="@drawable/frame_blue"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:background="@drawable/frame_blue"
+                android:padding="5dp"
+                app:srcCompat="@drawable/listening" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="@string/exercises"
+                android:textColor="@color/bluestyle"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:contentDescription="@string/book_image"
+                android:id="@+id/grammar_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/frame_blue"
+                android:padding="5dp"
+                app:srcCompat="@drawable/grammar" />
+
 
         </LinearLayout>
 
 
         <LinearLayout
             android:layout_width="wrap_content"
-            android:orientation="vertical"
-            android:padding="10dp"
+            android:layout_height="wrap_content"
             android:gravity="center"
-            android:layout_height="wrap_content">
+            android:orientation="vertical"
+            android:padding="10dp">
 
             <TextView
-                android:textStyle="bold"
-                android:textColor="@color/bluestyle"
-
                 android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+
                 android:text="@string/dictionary"
-                android:layout_height="wrap_content"/>
-            <ImageButton
-                android:id="@+id/dictionary"
-                android:padding="5dp"
-                app:srcCompat="@drawable/language"
-                android:background="@drawable/frame_blue"
-                android:layout_marginBottom="10dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
-            <TextView
-                android:textStyle="bold"
                 android:textColor="@color/bluestyle"
-                android:layout_width="wrap_content"
-                android:text="@string/videolessons"
-                android:layout_height="wrap_content"/>
-            <ImageButton
-                android:id="@+id/video_button"
-                android:padding="5dp"
-                app:srcCompat="@drawable/video"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/dictionary"
+                android:layout_width="137dp"
+                android:contentDescription="@string/dict_image"
+                android:layout_height="136dp"
                 android:background="@drawable/frame_blue"
+                android:padding="5dp"
+                app:srcCompat="@drawable/anguage_icon" />
+
+            <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="@string/lessons"
+                android:textColor="@color/bluestyle"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:contentDescription="@string/note_image"
+                android:id="@+id/video_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/frame_blue"
+                android:padding="5dp"
+                app:srcCompat="@drawable/checked" />
         </LinearLayout>
 
     </LinearLayout>
 
+    <TextView
+        android:id="@+id/app_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/frame_blue"
+        android:padding="8dp"
+        android:text="@string/about_the_app"
+        android:textColor="@color/bluestyle"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="RtlHardcoded" />
 
 
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

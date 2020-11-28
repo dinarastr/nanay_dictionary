@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
+import kotlinx.android.synthetic.main.activity_splash.*
 
 class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -15,6 +16,10 @@ class SplashActivity : AppCompatActivity() {
 
             startActivity(Intent(this, MenuActivity::class.java))
         }, 2000)
+
+        splash.setOnClickListener {
+            startActivity(Intent(this, MenuActivity::class.java))
+        }
 
     }
 }

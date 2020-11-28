@@ -3,7 +3,9 @@ package com.example.roomtut
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.navigation.NavController
 import androidx.navigation.findNavController
+import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.NavigationUI
 import androidx.navigation.ui.setupActionBarWithNavController
 
@@ -14,7 +16,16 @@ class DictionaryActivity : AppCompatActivity() {
 
         actionBar?.setDisplayHomeAsUpEnabled(false)
 
-        setupActionBarWithNavController(findNavController(R.id.fragment))
+
+        val appBarConfiguration = AppBarConfiguration(
+                setOf(
+                        R.id.listFragment,
+                        R.id.nanayDictFragment
+                )
+        )
+
+        setupActionBarWithNavController(findNavController(R.id.fragment), appBarConfiguration)
+
 
     }
 
@@ -30,5 +41,9 @@ class DictionaryActivity : AppCompatActivity() {
                 navController.navigateUp()
             }
         }
+    }
+
+    override fun onBackPressed() {
+        startActivity(Intent(this, MenuActivity::class.java))
     }
 }

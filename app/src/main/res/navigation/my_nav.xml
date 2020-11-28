@@ -23,8 +23,8 @@
     <fragment
         android:id="@+id/addFragment"
         android:name="com.example.roomtut.fragments.add.AddFragment"
-        android:label="Добавьте слово"
-        tools:layout="@layout/fragment_add" >
+        android:label="Добавьте нанайское слово"
+        tools:layout="@layout/fragment_add">
         <action
             android:id="@+id/action_addFragment_to_listFragment"
             app:destination="@id/listFragment" />
@@ -47,7 +47,7 @@
     <fragment
         android:id="@+id/addRussianFragment"
         android:name="com.example.roomtut.fragments.add.AddRussianFragment"
-        android:label="AddRussianFragment" >
+        android:label="Добавьте русское слово">
         <action
             android:id="@+id/action_addRussianFragment_to_listFragment"
             app:destination="@id/listFragment" />

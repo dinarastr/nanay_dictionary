@@ -5,9 +5,10 @@
         <item name="colorPrimary">@color/bluestyle</item>
         <item name="colorPrimaryVariant">@color/bluestyle</item>
         <item name="colorOnPrimary">@color/white</item>
+        <item name="colorAccent">@color/greenstyle</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/greenstyle</item>
-        <item name="colorSecondaryVariant">@color/greenstyle</item>
+        <item name="colorSecondary">@color/bluestyle</item>
+        <item name="colorSecondaryVariant">@color/bluestyle</item>
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">@color/bluestyle</item>
