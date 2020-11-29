@@ -11,15 +11,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Roomtut">
         <activity android:name=".InfoActivity"
-            android:screenOrientation="portrait"/>
+            />
         <activity android:name=".SpeakingMenuActivity"
-            android:screenOrientation="portrait"/>
+            />
         <activity android:name=".SpeakingActivity"
-            android:screenOrientation="portrait"/>
+            />
         <activity android:name=".MenuActivity"
-            android:screenOrientation="portrait"/>
+            />
         <activity android:name=".SplashActivity"
-            android:screenOrientation="portrait">
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -27,7 +27,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".DictionaryActivity"
-            android:screenOrientation="portrait"/>
+            />
     </application>
 
 </manifest>
