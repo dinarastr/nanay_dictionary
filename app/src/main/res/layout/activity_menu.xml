@@ -36,8 +36,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
 
+                android:fontFamily="sans-serif-condensed"
                 android:text="@string/speaking"
                 android:textColor="@color/bluestyle"
+                android:textSize="18sp"
                 android:textStyle="bold" />
 
             <ImageButton
@@ -53,19 +55,33 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
 
+                android:fontFamily="sans-serif-condensed"
                 android:text="@string/exercises"
                 android:textColor="@color/bluestyle"
+                android:textSize="18sp"
                 android:textStyle="bold" />
 
-            <ImageButton
-                android:contentDescription="@string/book_image"
-                android:id="@+id/grammar_button"
+            <FrameLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:background="@drawable/frame_blue"
-                android:padding="5dp"
-                app:srcCompat="@drawable/grammar" />
+                android:foreground="@drawable/locked"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:contentDescription="@string/book_image"
+                    android:id="@+id/grammar_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/frame_blue"
+                    android:padding="5dp"
+                    app:tint="#80000000"
+                    app:srcCompat="@drawable/grammar" />
+
+
+
+            </FrameLayout>
+
+
 
 
         </LinearLayout>
@@ -83,8 +99,10 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="1dp"
 
+                android:fontFamily="sans-serif-condensed"
                 android:text="@string/dictionary"
                 android:textColor="@color/bluestyle"
+                android:textSize="18sp"
                 android:textStyle="bold" />
 
             <ImageView
@@ -100,19 +118,31 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="1dp"
+                android:fontFamily="sans-serif-condensed"
                 android:text="@string/lessons"
                 android:textColor="@color/bluestyle"
+                android:textSize="18sp"
                 android:textStyle="bold" />
 
-            <ImageButton
-                android:contentDescription="@string/note_image"
-                android:id="@+id/video_button"
+            <FrameLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:background="@drawable/frame_blue"
-                android:padding="5dp"
-                app:srcCompat="@drawable/checked" />
+                android:foreground="@drawable/locked"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:contentDescription="@string/note_image"
+                    android:id="@+id/video_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/frame_blue"
+                    android:padding="5dp"
+                    app:tint="#80000000"
+                    app:srcCompat="@drawable/checked" />
+
+            </FrameLayout>
+
+
         </LinearLayout>
 
     </LinearLayout>
@@ -124,6 +154,7 @@
         android:layout_gravity="top"
         android:layout_marginTop="4dp"
         android:background="@drawable/frame_blue"
+        android:fontFamily="sans-serif-condensed"
         android:padding="8dp"
         android:text="@string/about_the_app"
         android:textColor="@color/bluestyle"
