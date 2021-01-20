@@ -9,71 +9,158 @@ class KitchenSourceFactory: ISourceFactory {
         list.add(
                 Phrase(
                         "Что сегодня будем готовить?",
-                        "Хайва эйниэ пуювури?",
+                        "Хайва эйниэ пую̄вури?",
                         R.drawable.listening,
-                        R.raw.puyurione
+                        R.raw.puixaiwaeiniepujuwuri
+                )
+        )
+        list.add(
+                Phrase("Давай суп сварим.",
+                        "Гэ̄, чолова пуюгуэри.",
+                        R.drawable.listening,
+                        R.raw.puicolowapuiugueri
+                )
+        )
+        list.add(
+                Phrase("Жирный суп свари!",
+                        "Уликсэ чоломбани пую̄ру!",
+                        R.drawable.listening,
+                        R.raw.puiuliksecolombanipuiuru
+                )
+        )
+        list.add(
+                Phrase("Ты сегодня что готовишь?",
+                        "Сӣ эйниэ хайва пую̄риси?",
+                        R.drawable.listening,
+                        R.raw.puisieiniexaiwapuiurisi
+                )
+        )
+        list.add(
+                Phrase("Боду (кашеобразное блюдо) я сварил(а).",
+                        "Бодава пую̄хэмби.",
+                        R.drawable.listening,
+                        R.raw.puibodawapuiuxembi
+                )
+        )
+        list.add(
+                Phrase("Завтра боду буду варить.",
+
+                        "Чимана бодава пую̄демби.",
+                        R.drawable.listening,
+                        R.raw.puicimanabodawapuiujembi
                 )
         )
         list.add(
                 Phrase("Что нужно по рецепту?",
+
                         "Пуюгуй хайва гэлэйни?",
                         R.drawable.listening,
-                        R.raw.puyuritwo
+                        R.raw.puipuiugui
                 )
         )
         list.add(
-                Phrase("Почисть картошку!",
-                        "Эй дудуэсэвэ хорактава ачу!",
+                Phrase(
+                        "Этой картошки кожуру почисть.",
+                        "Эй дудуэсэ хорактавани ачу.",
                         R.drawable.listening,
-                        R.raw.puyurithree
+                        R.raw.puieiduduesexoraktawani
                 )
         )
         list.add(
                 Phrase("Нарежь картошку / огурцы.",
 
-                        "Дудуэсэвэ / хоаӈгоамба кучэнди ча̄су!",
+                        "Дудуэсэвэ / хоаӈгоамба кучэнди ча̄су.",
                         R.drawable.listening,
-                        R.raw.puyurifour
+                        R.raw.puiduduesexoagoamba
                 )
         )
         list.add(
-                Phrase("Надо варить суп в течение часа",
+                Phrase("Я талу нарезаю.",
 
-                        "Эй чоломба эм часаду пуюми ая",
+                        "Мӣ пиармава кэрчии.",
                         R.drawable.listening,
-                        R.raw.puyurifive
+                        R.raw.puimipiarmawakercii
+                )
+        )
+        list.add(
+                Phrase("Таксу (рыбный паштет) сложно делать.",
+
+                        "Таксамба маӈга аӈговори.",
+                        R.drawable.listening,
+                        R.raw.puitaksambaangori
                 )
         )
         list.add(
                 Phrase(
-                        "Попробуй, вкусно? Как?",
-                        "Пэргу, улэн? Хонь би?",
-                        R.drawable.listening,
-                        R.raw.puyurisix
-                )
-        )
-        list.add(
-                Phrase("Добавь соль / сахар",
+                        "Этот суп в течение часа варить надо.",
 
-                        "Даосомба / сиатава гучи нэ̄ру",
+                        "Эй чоломба эм часаду пуюми ая.",
                         R.drawable.listening,
-                        R.raw.puyuriseven
+                        R.raw.puieicolombaemcasadu
+                )
+        )
+
+        list.add(
+            Phrase(
+                "Попробуй, вкусно? Как?",
+
+                "Пэргу, улэн? Хо̄ни бӣ?",
+                R.drawable.listening,
+                R.raw.puipergu
+            )
+        )
+        list.add(
+            Phrase(
+                "Еще соли добавь.",
+
+                "Даосомба гучи нэ̄ру.",
+                R.drawable.listening,
+                R.raw.puidaosombaguci
+            )
+        )
+        list.add(
+                Phrase(
+                        "Соль / сахар туда добавь.",
+
+                        "Даосомба, сиатава чаду нэ̄ру.",
+                        R.drawable.listening,
+                        R.raw.puidaosombasiatawa
                 )
         )
         list.add(
-                Phrase("Зажги огонь!",
+                Phrase(
+                        "Этот суп вкусный стал!",
+
+                        "Тэй чоло амта очини!",
+                        R.drawable.listening,
+                        R.raw.puiteicoloamta
+                )
+        )
+        list.add(
+                Phrase(
+                        "Зажги!",
+
+                        "Дегдю!",
+                        R.drawable.listening,
+                        R.raw.puijegju
+                )
+        )
+        list.add(
+                Phrase(
+                        "Зажги огонь!",
 
                         "Тавава та̄ву!",
                         R.drawable.listening,
-                        R.raw.puyurieight
+                        R.raw.puitawawatawu
                 )
         )
         list.add(
-                Phrase("Горячо!",
+                Phrase(
+                        "Горячо!",
 
                         "Пэкэ!",
                         R.drawable.listening,
-                        R.raw.puyurinine
+                        R.raw.puipeke
                 )
         )
         list.add(
@@ -82,9 +169,19 @@ class KitchenSourceFactory: ISourceFactory {
 
                         "Хулдиру!",
                         R.drawable.listening,
-                        R.raw.puyuriten
+                        R.raw.puixuldiru
                 )
         )
+        list.add(
+                Phrase(
+                        "Собираю своему ребёнку еду с собой (поесть в дороге или в перерыве: «ссобойка», «тормозок», «еда в котомочке»)",
+
+                        "Хуйгэсэвэ пиктэдуи баргии.",
+                        R.drawable.listening,
+                        R.raw.puixuigesewepiktedui
+                )
+        )
+
 
         return list
     }

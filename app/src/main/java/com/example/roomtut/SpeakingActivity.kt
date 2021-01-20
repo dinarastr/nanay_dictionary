@@ -7,7 +7,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.roomtut.adapters.SpeakingRVAdapter
 import com.example.roomtut.adapters.TopSpacingItemClass
 import com.example.roomtut.sourcefactory.SpeakingFactory
-import kotlinx.android.synthetic.main.activity_speaking.*
+import kotlinx.android.synthetic.main.activity_speaking_menu.*
 import java.lang.IllegalArgumentException
 
 class SpeakingActivity : AppCompatActivity(), SpeakingRVAdapter.OnItemClickListener {
@@ -58,10 +58,20 @@ class SpeakingActivity : AppCompatActivity(), SpeakingRVAdapter.OnItemClickListe
 
     fun playSound(soundResId: Int) {
         mMediaPlayer?.stop()
+        mMediaPlayer?.release()
         mMediaPlayer = MediaPlayer.create(this, soundResId).apply {
             isLooping = false
             start()
         }
+    }
+
+    override fun onPause() {
+        super.onPause()
+        mMediaPlayer?.run{
+            stop()
+            release()
+        }
+        mMediaPlayer = null
     }
 
     override fun onSaveInstanceState(outState: Bundle) {

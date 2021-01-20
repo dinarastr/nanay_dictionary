@@ -1,25 +1,19 @@
 <resources>
     <string name="app_name">Хэсэку</string>
     <string name="hello">Ба̄чигоапу!</string>
-    <string name="grammar">Грамматика</string>
     <string name="speaking">Разговорник</string>
     <string name="dictionary">Словарь</string>
-    <string name="videolessons">Видеоуроки</string>
-    <string name="click_the_icon">Нажмите на иконку и прослушайте</string>
     <string name="add">Добавить</string>
     <string name="word">Слово</string>
     <string name="Translation">Перевод</string>
     <string name="search">Поиск</string>
     <string name="russian">русский</string>
-    <string name="nanay">нанайский</string>
     <string name="nanay_nanay">нāни</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="switch_languages">switch languages</string>
     <string name="exercises">Упражнения</string>
     <string name="lessons">Уроки</string>
     <string name="about_the_app">О приложении</string>
     <string name="info">Создано региональной общественной организацией \"Ассоциация коренных малочисленных народов Севера Хабаровского края\" и инициативной группой \"Страна языков\".\n\n Основу словарной части приложения составил \"Словарь нанайско-русский и русско-нанайский\" С.Н.Оненко (1989). \n\nОзвучка: Нина Павловна Гейкер, Раиса Алексеевна Бельды, Татьяна Александровна Моложавая. \n\nРазработчики: Динара Степина, Андрей Чемышев, Василий Харитонов.\n\n Мы будем рады предложениям, вопросам и отзывам, которые можно направить на почту \nsetare497@gmail.com. </string>
-    <string name="back_to_menu">назад в меню</string>
     <string name="speaking_image">speaking_image</string>
     <string name="book_image">book_image</string>
     <string name="dict_image">dict_image</string>

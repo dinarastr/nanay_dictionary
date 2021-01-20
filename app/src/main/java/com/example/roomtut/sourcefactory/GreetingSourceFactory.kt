@@ -11,59 +11,83 @@ class GreetingSourceFactory: ISourceFactory {
 
                         "Ба̄чигоапу!",
                     R.drawable.listening,
-                    R.raw.bachione
+                    R.raw.bacbacigoapu
             )
         )
         list.add(
             Phrase("Как дела?",
                 "Хо̄ни бӣси?",
                     R.drawable.listening,
-                    R.raw.bachitwo
+                    R.raw.bacxonibisi
             )
         )
         list.add(
-            Phrase("Хорошо.",
-                "Улэн.",
+            Phrase("Хорошо. Хорошо. Хорошо у нас.",
+                "Улэн. Улэн би. Ая бипу.",
                     R.drawable.listening,
-                    R.raw.bachithree
+                    R.raw.baculebipu
             )
         )
-        list.add(
-            Phrase("Плохо!",
 
-                "Ай, чукин!...",
-                    R.drawable.listening,
-                    R.raw.bachifour
-            )
-        )
         list.add(
-            Phrase("Что нового?",
+            Phrase("Все люди хорошо живут, здоровы.",
 
-                "Хай мэдэ?",
-                    R.drawable.listening,
-                    R.raw.bachifive
+                "Хэмту най улэн би, ая.",
+                R.drawable.listening,
+                R.raw.bacxemtuule
             )
         )
+
+        list.add(
+                Phrase("Плохо!",
+
+                        "Ай, чукин!...",
+                        R.drawable.listening,
+                        R.raw.baccuki
+                )
+        )
+
+        list.add(
+                Phrase("Ты откуда приехал(а)?",
+
+                        "Сӣ хаяди дидюхэси?",
+                        R.drawable.listening,
+                        R.raw.bacsixaiadidijuxesi
+                )
+        )
+
+        list.add(
+                Phrase("Что нового?",
+
+                        "Хай мэдэ?",
+                        R.drawable.listening,
+                        R.raw.bacxaimede
+                )
+        )
+
+        list.add(
+            Phrase("Что нового? Новости хорошие...",
+
+                "Хай мэдэ? Мэдэ улэн...",
+                R.drawable.listening,
+                R.raw.bacxaimedemedeaba
+            )
+        )
+
+
         list.add(
             Phrase(
                 "Ничего нового...",
                 "Мэдэ аба...",
                     R.drawable.listening,
-                    R.raw.bachisix
-            )
-        )
-        list.add(
-            Phrase("Сегодня стало пасмурно, не выходи наружу.",
-                "Эйниэ тугдэ осини эди боачи ниэрэ.",
-                    R.drawable.listening,
-                    R.raw.bachiseven
+                    R.raw.bacmedeaba
             )
         )
         list.add(
             Phrase("Спасибо!",
                 "Баниха! Вакади кэсиэ",
                     R.drawable.listening,
-                    R.raw.bachieight
+                    R.raw.bacbanixa
             )
         )
         list.add(
@@ -71,7 +95,7 @@ class GreetingSourceFactory: ISourceFactory {
 
                 "Хайва тайси?",
                     R.drawable.listening,
-                    R.raw.bachinine
+                    R.raw.bacxaiwataisi
             )
         )
         list.add(
@@ -80,7 +104,7 @@ class GreetingSourceFactory: ISourceFactory {
 
                 "Хайва-да тарасимби.",
                     R.drawable.listening,
-                    R.raw.bachiten
+                    R.raw.bacxaiwadatarasimbi
             )
         )
         list.add(
@@ -88,7 +112,7 @@ class GreetingSourceFactory: ISourceFactory {
 
                 "Улэн биу(су)!",
                     R.drawable.listening,
-                    R.raw.bachieleven
+                    R.raw.baculebiusu
             )
         )
         list.add(
@@ -96,15 +120,23 @@ class GreetingSourceFactory: ISourceFactory {
                 "До свидания! (остающемуся)",
                 "Пэдэм дэрэдигу!",
                     R.drawable.listening,
-                    R.raw.bachitweve
+                    R.raw.bacpedemderedigu
             )
+        )
+        list.add(
+                Phrase(
+                        "До свидания! (остающимся)",
+                        "Пэдэм дэрэдигусу!",
+                        R.drawable.listening,
+                        R.raw.bacpedemderedigusu
+                )
         )
         list.add(
             Phrase(
                 "До свидания! (уходящему)",
                 "Пэдэм эну!",
                     R.drawable.listening,
-                    R.raw.bachithirteen
+                    R.raw.bacpedemenu
             )
         )
         list.add(
@@ -112,7 +144,7 @@ class GreetingSourceFactory: ISourceFactory {
                 "До свидания! (уходящим)",
                 "Пэдэм энусу!",
                     R.drawable.listening,
-                    R.raw.bachiforteen
+                    R.raw.bacpedemenusu
             )
         )
         return list

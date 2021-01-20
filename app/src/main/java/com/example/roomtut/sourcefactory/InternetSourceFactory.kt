@@ -8,32 +8,80 @@ class InternetSourceFactory: ISourceFactory {
         val list = ArrayList<Phrase>()
         list.add(
                 Phrase(
-                        "Ешь!",
-                        "Сиару!",
+                        "У тебя ватсап есть?",
+                        "Синду вачап бӣ?",
                         R.drawable.listening,
-                        R.raw.foodone
+                        R.raw.intsinduvacapbi
                 )
         )
         list.add(
-                Phrase("Вкусно!",
-                        "Амта!",
+                Phrase("Давай поговорим в ватсапе!",
+                        "Хисаӈгосигоари вачападу!",
                         R.drawable.listening,
-                        R.raw.foodtwo
+                        R.raw.intxisangogoarivacapdu
                 )
         )
         list.add(
-                Phrase("Передай, пожалуйста, нож / палочки.",
-                        "Кучэмба / соргова бӯру.",
+                Phrase("Позвони мне!",
+                        "Минчи званилу!",
                         R.drawable.listening,
-                        R.raw.foodthree
+                        R.raw.intmincizvanilu
                 )
         )
         list.add(
-                Phrase("Сегодня у нас полынный суп, копчёная рыба и чай с солима.",
+                Phrase("Мне напиши.",
 
-                        "Эйниэ соакта чолони, лала силумэ согдатади, гучи чаи солимади сиарипу.",
+                        "Минду ниру, минчи ниру.",
                         R.drawable.listening,
-                        R.raw.foodfour
+                        R.raw.intminduniruminciniru
+                )
+        )
+        list.add(
+               Phrase("Запиши звуковое сообщение! Запиши голосовуху!",
+
+                       "Дилганди унду! Хэсэди унду!",
+                      R.drawable.listening,
+                        R.raw.intdilgandundu
+                )
+        )
+        list.add(
+                Phrase("Мне напиши письмо.",
+
+                        "Минду ниру бичхэвэ.",
+                        R.drawable.listening,
+                        R.raw.intmindunirubicxewe
+                )
+        )
+        list.add(
+                Phrase("У меня плохо работает  интернет.",
+
+                        "Мӣ чукин интернет дёбойни.",
+                        R.drawable.listening,
+                        R.raw.intminducukiinternet
+                )
+        )
+        list.add(
+                Phrase("Я не могу с тобой поговорить.",
+
+                        "Мӣ синди хисаӈгоми мутэ̄симби.",
+                        R.drawable.listening,
+                        R.raw.intmisindixisangomimutesimbi
+                )
+        )
+        list.add(
+                Phrase("Смотри что я нашёл/нашла в интернете.",
+
+                        "Ичэу хайва мӣ ба̄хамби интернетаду.",
+                        R.drawable.listening,
+                        R.raw.inticeuxaiwami
+                )
+        )
+        list.add(
+                Phrase("Ссылку/сайт мне пришли.",
+
+                        "Сайтава минчи уйгу.",
+                        R.drawable.listening,
+                        R.raw.intsaitawauigu
                 )
         )
         return list

@@ -4,8 +4,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:padding="5dp"
-    android:id="@+id/rowLayout">
+    android:padding="5dp">
 
     <LinearLayout
         android:layout_width="wrap_content"
