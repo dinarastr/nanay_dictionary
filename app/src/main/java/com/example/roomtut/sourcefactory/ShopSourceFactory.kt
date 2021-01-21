@@ -15,7 +15,7 @@ class ShopSourceFactory: ISourceFactory {
         )
         list.add(
                 Phrase("Сегодня этот магазин работает?",
-                        "Эйниэ эй магазин дёбойни?",
+                        "Эй магазин эйниэ дёбойни?",
                         R.drawable.listening,
                         R.raw.mageimagazinjoboini
                 )
@@ -37,7 +37,7 @@ class ShopSourceFactory: ISourceFactory {
 
         list.add(
                 Phrase("Яблоки, капусту дай-ка.",
-                        "Амтакава, солгива буру.",
+                        "Амтакава, солгива бӯру.",
                         R.drawable.listening,
                         R.raw.magamtakawasolgiwaburu
                 )
@@ -45,7 +45,7 @@ class ShopSourceFactory: ISourceFactory {
 
         list.add(
                 Phrase("Свежий хлеб и масло дай-ка.",
-                        "Парпи эпэмбэ, гучи симуксэвэ буру.",
+                        "Парпи эпэмбэ, гучи симуксэвэ бӯру.",
                         R.drawable.listening,
                         R.raw.magparpiepesimukseweburu
                 )
@@ -144,8 +144,8 @@ class ShopSourceFactory: ISourceFactory {
                 )
         )
         list.add(
-                Phrase("Он(а) кожаный кошелёк купил(а).",
-                        "Нёани нанта партамавани гачини.",
+                Phrase("Я кожаный кошелёк купил(а).",
+                        "Мӣ нанта партамавани гачимби.",
                         R.drawable.listening,
                         R.raw.magnioaninantapartamavani
                 )

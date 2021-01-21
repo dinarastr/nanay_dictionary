@@ -78,7 +78,7 @@ class SpeakingMenuSource {
             )
 
             list.add(
-                    SpeakingMenu("Поход в горы",
+                    SpeakingMenu("Поход",
                             "Пурэнду",
                             R.drawable.mountain,
                     )

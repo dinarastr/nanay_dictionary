@@ -72,7 +72,7 @@ class FamilySourceFactory: ISourceFactory {
         list.add(
             Phrase(
                 "Моя родня: ребёнок-дети, муж, дети детей.",
-                "Мӣ дёӈкаи: пиктэи-пиктэсэлби, мапаи, пиктэсэл пиктэсэлни.",
+                "Мӣ дёӈкаи: пиктэи пиктэсэлби, мапаи, пиктэсэл пиктэсэлни.",
                 R.drawable.listening,
                 R.raw.jonkjonkaipiktepikteselbi
             )

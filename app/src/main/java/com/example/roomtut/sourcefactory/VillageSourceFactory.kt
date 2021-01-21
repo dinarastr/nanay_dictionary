@@ -7,17 +7,15 @@ class VillageSourceFactory: ISourceFactory {
     override fun createDataSet(): ArrayList<Phrase> {
         val list = ArrayList<Phrase>()
         list.add(
-                Phrase(
+                Phrase("Куда идёшь?",
                         "Хаоси энэйси?",
-                        "Куда идёшь?",
                         R.drawable.listening,
                         R.raw.ixoxaosieneisi
                 )
         )
         list.add(
-                Phrase(
+                Phrase("Вы куда идёте?",
                         "Суэ хаоси энэйсу?",
-                        "Вы куда идёте?",
                         R.drawable.listening,
                         R.raw.ixosuexaosieneisu
                 )
@@ -44,8 +42,8 @@ class VillageSourceFactory: ISourceFactory {
                 )
         )
         list.add(
-                Phrase("Администрация ба̄рони пулсихэмби, заявление нирухэмби, районнай депутата ба̄рони нирухэмби.",
-                        "В администрацию я пошёл/пошла, заявление написал(а), районному депутату написал(а).",
+                Phrase("В администрацию я пошёл/пошла, заявление написал(а), районному депутату написал(а).",
+                        "Администрация ба̄рони пулсихэмби, заявление нирухэмби, районнай депутата ба̄рони нирухэмби.",
                         R.drawable.listening,
                         R.raw.ixoadministraciadeputat
                 )
@@ -100,8 +98,8 @@ class VillageSourceFactory: ISourceFactory {
                 )
         )
         list.add(
-                Phrase("Таоси энэгуэри!",
-                        "Туда пойдём!",
+                Phrase("Туда пойдём!",
+                        "Таоси энэгуэри!",
                         R.drawable.listening,
                         R.raw.ixotaosienegueri
                 )

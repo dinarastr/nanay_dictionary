@@ -63,7 +63,7 @@ class MountainSourceFactory: ISourceFactory {
         list.add(
                 Phrase("Здесь - сопка Тордоки-Яни, а там Анюй течёт.",
 
-                        "Эйду — Тордоки-Яни, чаду — Они хэейни.",
+                        "Эйду — хурэ̄н Тордоки-Яни, чаду — Они хэейни.",
                         R.drawable.listening,
                         R.raw.pueidutordokiiani
                 )
@@ -106,14 +106,6 @@ class MountainSourceFactory: ISourceFactory {
                         "Ма, спичкэвэ дяпу!",
                         R.drawable.listening,
                         R.raw.pumaspickewejapu
-                )
-        )
-        list.add(
-                Phrase("Огонь весь погас.",
-
-                        "Тава хэм суптэхэни.",
-                        R.drawable.listening,
-                        R.raw.putawaxemsuptexeni
                 )
         )
         list.add(

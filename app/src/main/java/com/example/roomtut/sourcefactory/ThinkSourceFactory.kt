@@ -193,7 +193,7 @@ class ThinkSourceFactory: ISourceFactory {
         list.add(
                 Phrase("Не бойся!",
 
-                        "Эди нэлэчиэ!",
+                        "Эди ӈэлэчиэ!",
                         R.drawable.listening,
                         R.raw.muredingelece
                 )

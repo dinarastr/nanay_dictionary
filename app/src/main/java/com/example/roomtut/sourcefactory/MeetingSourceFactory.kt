@@ -39,7 +39,7 @@ class MeetingSourceFactory: ISourceFactory {
         list.add(
             Phrase("Ты где живёшь?",
 
-                        "Сӣ хайду балди(й)си?",
+                        "Сӣ хайду балдиси?",
                     R.drawable.listening,
                     R.raw.misixaidubaldisi
             )
@@ -47,7 +47,7 @@ class MeetingSourceFactory: ISourceFactory {
         list.add(
                 Phrase(
                         "Я живу в Ачане, в Амурском районе, Хабаровский край. Я тут живу, в Хабаровске.",
-                        "Мӣ балдии Ачанду, Амурскай районду, Хабаровскай край. Мӣ эйду балди(й)и, Буриду.",
+                        "Мӣ балдии Ачанду, Амурскай районду, Хабаровскай край. Мӣ эйду балдии, Буриду.",
                         R.drawable.listening,
                         R.raw.mimibaldii
                 )

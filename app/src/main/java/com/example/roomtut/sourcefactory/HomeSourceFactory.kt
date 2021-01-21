@@ -17,14 +17,14 @@ class HomeSourceFactory: ISourceFactory {
         )
         list.add(
                 Phrase("Заходи ко мне, погости!",
-                        "Ӣру минду, диманду!",
+                        "Ӣру минчи, диманду!",
                         R.drawable.listening,
                         R.raw.joirumincidimandu
                 )
         )
         list.add(
                 Phrase("Видишь три окна?",
-                        "Илан па̄ва ичэйси?",
+                        "Илан па̄вава ичэйси?",
                         R.drawable.listening,
                         R.raw.joilanpawa
                 )
@@ -32,7 +32,7 @@ class HomeSourceFactory: ISourceFactory {
         list.add(
                 Phrase("Мой дом зелёный, белый, чёрный.",
 
-                        "Дёгби нёӈгиан, чагдян, сахарин.",
+                        "Мӣ дёи нёӈгиан, чагдян, сахарин.",
                         R.drawable.listening,
                         R.raw.josaxarin
                 )
@@ -40,7 +40,7 @@ class HomeSourceFactory: ISourceFactory {
         list.add(
                 Phrase("Твой дом старый / новый?",
 
-                        "Сӣ дёкси балапчи-ну, сикун-ну?",
+                        "Сӣ дёси балапчи-ну, сикун-ну?",
                         R.drawable.listening,
                         R.raw.josijoksibalapci
                 )
@@ -54,9 +54,9 @@ class HomeSourceFactory: ISourceFactory {
                 )
         )
         list.add(
-                Phrase("Эй сӣ дёкси-ну?",
+                Phrase("Это твой дом?",
 
-                        "Это твой дом?",
+                        "Эй сӣ дёкси-ну?",
                         R.drawable.listening,
                         R.raw.joeisijoksinu
                 )
@@ -141,7 +141,7 @@ class HomeSourceFactory: ISourceFactory {
                 "Садись вот сюда, вот на эту лавочку.",
                 "Эуси тэ̄ру, эй банданду тэ̄ру.",
                 R.drawable.listening,
-                R.raw.jodociiru
+                R.raw.jobandandu
             )
         )
         list.add(
@@ -149,7 +149,7 @@ class HomeSourceFactory: ISourceFactory {
                         "Выпьем чаю.",
                         "Чаива омигоари!",
                         R.drawable.listening,
-                        R.raw.jodociiru
+                        R.raw.jocaiwa
                 )
         )
 
@@ -244,7 +244,7 @@ class HomeSourceFactory: ISourceFactory {
         list.add(
                 Phrase(
                         "Свет гаси!",
-                        "Ихэрэ гӯпу!",
+                        "Ихэрэвэ гӯпу!",
                         R.drawable.listening,
                         R.raw.joixeregupu
                 )
